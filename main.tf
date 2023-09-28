@@ -1,11 +1,11 @@
 locals {
-  vpc_id              = "vpc-0805f2bbd663be009"
-  private_a_subnet_id = "subnet-01226af691ca55804"
-  private_b_subnet_id = "subnet-02386f9e07e6a12ea"
-  public_a_subnet_id  = "subnet-0eae86856a8e78e75"
-  public_b_subnet_id  = "subnet-0a21d333967bccfe0"
+  vpc_id              = "vpc-0fc5f53e1869c09c2"
+  private_a_subnet_id = "subnet-07ed7d4b11de4d99d"
+  private_b_subnet_id = "subnet-0bb61faf9ce70ed6b"
+  public_a_subnet_id  = "subnet-0305ff38bdaef41da"
+  public_b_subnet_id  = "subnet-038d77aa35307362f"
 
-  ubuntu_ami = "ami-0f8ca728008ff5af4"
+  ubuntu_ami = "ami-0f5ee92e2d63afc18"
 
   traffic_dist_map = {
     blue = {
